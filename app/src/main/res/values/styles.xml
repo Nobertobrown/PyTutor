@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Fonts -->
+    <style name="text_xs" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_xs</item>
+        <item name="android:fontFamily">@font/quantico_regular</item>
+    </style>
+
+    <style name="text_sm" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_sm</item>
+        <item name="android:fontFamily">@font/quantico_regular</item>
+        <item name="android:textColor">@color/blue_950</item>
+    </style>
+
+    <style name="text_md" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_md</item>
+        <item name="android:fontFamily">@font/quantico_regular</item>
+    </style>
+
+    <style name="text_lg" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_lg</item>
+        <item name="android:fontFamily">@font/quantico_bold</item>
+    </style>
+
+    <style name="text_xl" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_xl</item>
+        <item name="android:fontFamily">@font/quantico_bold</item>
+    </style>
+
+    <style name="text_xxl" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_xxl</item>
+        <item name="android:fontFamily">@font/quantico_bold</item>
+    </style>
+
+    <style name="edit_text">
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="fontFamily">@font/quantico_regular</item>
+    </style>
+
+    <style name="button">
+        <item name="android:textSize">@dimen/text_md</item>
+        <item name="android:padding">12dp</item>
+        <item name="fontFamily">@font/quantico_bold</item>
+    </style>
+
+    <style name="icon_button">
+        <item name="android:padding">10dp</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/corner_radius</item>
+    </style>
+</resources>
