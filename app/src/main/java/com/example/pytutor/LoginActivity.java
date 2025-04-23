@@ -26,6 +26,7 @@ public class LoginActivity extends AppCompatActivity {
 
         // Find the "Sign Up Here" button by ID (Add this line)
         Button signupButton = findViewById(R.id.signupButton); // <-- Add this line
+        Button loginButton = findViewById(R.id.loginButton);
 
         // Set the click listener for the "Sign Up Here" button (Add this block)
         signupButton.setOnClickListener(new View.OnClickListener() {
@@ -34,7 +35,18 @@ public class LoginActivity extends AppCompatActivity {
                 // When the button is clicked, open the Sign Up Activity
                 Intent intent = new Intent(LoginActivity.this, SignUpActivity.class); // <-- Add this line
                 startActivity(intent); // <-- Add this line
-                overridePendingTransition(R.anim.slide_from_right, R.anim.slide_from_left);
+                overridePendingTransition(R.anim.slide_in, 0);
+            }
+        });
+
+        // Set the click listener for the "Login" button (Add this block)
+        loginButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // When the button is clicked, open the Sign Up Activity
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class); // <-- Add this line
+                startActivity(intent); // <-- Add this line
+                overridePendingTransition(R.anim.slide_in, R.anim.slide_out);
             }
         });
     }

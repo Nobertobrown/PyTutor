@@ -34,6 +34,7 @@ public class SignUpActivity extends AppCompatActivity {
                 // When the button is clicked, open the Sign Up Activity
                 Intent intent = new Intent(SignUpActivity.this, LoginActivity.class); // <-- Add this line
                 startActivity(intent); // <-- Add this line
+                overridePendingTransition(R.anim.slide_out, 0);
             }
         });
     }

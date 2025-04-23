@@ -49,11 +49,11 @@
             android:hint="Password"
             style="@style/edit_text"
             android:background="@drawable/custom_edittext_border"
-            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintBottom_toTopOf="@+id/loginButton"
             tools:layout_editor_absoluteX="20dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/loginButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/size_xs"
