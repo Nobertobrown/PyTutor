@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.PyTutor" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
         <item name="colorPrimary">@color/blue_600</item>
-        <item name="android:windowIsTranslucent">true</item>
     </style>
 
     <style name="Theme.PyTutor" parent="Base.Theme.PyTutor" />
